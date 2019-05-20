@@ -7,7 +7,7 @@
     </head>
     <body>
         <div>
-            <form>
+            <form action="reg.php" method="post">
                 <input type="text" name="regUname" id="regUname">
                 <br>
                 <UserName>UserName</UserName>
