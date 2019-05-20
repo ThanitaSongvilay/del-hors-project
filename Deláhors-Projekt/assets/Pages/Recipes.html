@@ -1,20 +1,62 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Recipes</title>
+        <title>Recept</title>
+        <link rel="stylesheet" href="../css/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+        <div>
+        <link href="../../navbar.html" rel="import">
     </head>
     <body>
+      <nav>
+        <p> StudentMat </p>
+        <div class="dropDown">
+          <ul>
+            <li><a href="../../index.html">Hem</a>
+              <ul>
+                <li><a href="AboutUs.html">Om oss</a>
+                  </ul>
+                </li>
+                <li><a href="Recipes.html">Recept</a>
+                  <ul>
+                    <li><a href="recipes/Vegan.php">Vegan</a>
+                      <li><a href="recipes/Vegetarian.php">Vego</a><li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Handla</a>
+                      <ul>
+                        <li><a href="shops/VegoShop.php">Köp</a></ul>
+                        </li>
+                      </ul>
+                      <div id= "logInContainer">
+                        <form id="form" name="form" method="GET" action="process.php"onsubmit="return kolla()">
+                          <div id="Namn">
+                            <input type="text" placeholder="Användarnamn/E-mail..." name="Namn"/>
+                          </div>
+                          <div id="Losen">
+                            <input type="password" placeholder="Lösenord..." name="Email"/>
+                          </div>
+                          <div id="Knapp">
+                            <button type="submit">Logga in</button>
+                            <button type="submit">Skapa Konto</button>
+                          </div>
+
+                        </form>
+                      </div>
+                    </nav>
         <div>
-            <h2>Recipes</h2>
-            <h5>Find the recipes you want create by looking through our selection of delicious recipes that are cheaper than average</h5>
+            <h2>Recept</h2>
+            <p>Find the recipes you want create by looking through our selection of delicious recipes that are cheaper than average</p>
             <br>
         </div>
 
         <div class="grid-container">
             <!-- stick pictures with links in here -->
-           <div class="grid-item" href="recipes/Vegan.php"><img src="../img/pic5.png"></div>
-           <div class="grid-item" href="recipes/Vegetarian.php"><img src="../img/pic1.png"></div>
-           <div class="grid-item">hehe</div>
+           <div class="grid-item"><a href="recipes/Vegan.php"><p>Vegan recipes</p><img src="../img/pic3.jpg"></a></div>
+           <div class="grid-item"> <a href="recipes/Vegetarian.php"><p>Vegetarian recipes</p><k><img src="../img/pic1.jpg"></k></a></div>
+           <div class="grid-item"> <a href="recipes/Vegetarian.php"><p>Fast recipes</p><img src="../img/pic2.jpg"></a></div>
+            <!--<div class="grid-item"> <a href="recipes/Vegetarian.php"><p>Vegetarian recipes</p><img src="../img/newpic.png"></a></div>-->
+
         </div>
 
         <div>
