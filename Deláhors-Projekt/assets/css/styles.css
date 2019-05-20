@@ -137,5 +137,5 @@ grid-gap: 5px 5px;
 .grid-item{
   object-position:100% 100% ;
   border: 1px solid rgba(0, 0, 0, 0.8);
-  border-image-outset: initial;
+  border-image-outset: -5px;
 }
