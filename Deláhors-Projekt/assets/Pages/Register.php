@@ -60,7 +60,7 @@
 
             else {
              return false;
-             header("Refresh: 2; URL=Register.php");
+             header("Refresh: 2; URL=../Pages/Register.php");
            }
 
           }
@@ -79,7 +79,7 @@
 
           function validatePword(pword){
             var psword =/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/;
-            if(psword.test(pword1)){
+            if(psword.test(pword)){
               return true;
             }
             else{
