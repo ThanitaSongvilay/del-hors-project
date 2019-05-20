@@ -12,8 +12,8 @@
 
         <div class="grid-container">
             <!-- stick pictures with links in here -->
-           <div class="grid-item" href="recipes/Vegan.php"><img link="../img/veganButton.png"></div>
-           <div class="grid-item">ahaha</div>
+           <div class="grid-item" href="recipes/Vegan.php"><img link="../img/pic5.png"></div>
+           <div class="grid-item" href="recipes/Vegetarian.php"><img link="../img/pic1.png"></div>
            <div class="grid-item">hehe</div>
         </div>
         
