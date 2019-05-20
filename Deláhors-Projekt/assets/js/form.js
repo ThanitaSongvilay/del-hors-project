@@ -1,14 +1,14 @@
 function kolla()
 {
-  var n = document.form.Namn.value;
-  var e = document.form.Email.value;
+  var namn = document.form.Namn.value;
+  var email = document.form.Email.value;
 
-  if(n == "")
+  if(namn.trim() == "")
   {
     alert("Skriv in ditt användarnamn.");
     return false;
   }
-  if(e == "")
+  if(email.trim() == "")
   {
     alert("Skriv in ditt lösenord.");
     return false;
