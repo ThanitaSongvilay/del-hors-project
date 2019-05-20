@@ -146,4 +146,5 @@ p{
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: black;
   border: 1px solid black;
+  border-image-outset: 0px;
 }
