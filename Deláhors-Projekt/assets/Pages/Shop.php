@@ -11,6 +11,10 @@
         </div>
 
         <div>
+            <h1>Hello world</h1>
+        </div>
+
+        <div>
             <!-- boxes that will link to vego and vegan options -->
         </div>
     </body>
