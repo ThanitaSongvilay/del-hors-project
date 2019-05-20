@@ -50,8 +50,7 @@
                 </div>
               </footer>
 
-
-
+				<p> Not a member?  <a href="assets/php/Register.php"> Register now</a></p>
                 <script>
                 function kolla(){
                   var namn = document.form.Namn.value;
