@@ -36,7 +36,7 @@
                         <input type="text" placeholder="Användarnamn/E-mail..." name="Namn"/>
                       </div>
                       <div id="Losen">
-                        <input type="text" placeholder="Lösenord..." name="Email"/>
+                        <input type="password" placeholder="Lösenord..." name="Email"/>
                       </div>
                       <div id="Knapp">
                         <button type="submit">Logga in</button>
