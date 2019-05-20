@@ -137,8 +137,8 @@ grid-gap: 5px 5px;
 }
 
 .grid-item{
-  object-position:100% 100% ;
-  border: 3px solid rgba(0, 0, 0, 0.8);
+  object-position:90% 90%;
+  border: 3px solid black;
   border-image-outset: 0px;
 }
 
