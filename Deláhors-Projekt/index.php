@@ -31,7 +31,7 @@
                     </li>
                   </ul>
                   <div id= "logInContainer">
-                    <form id="form" name="form" method="GET" action="process.php"onsubmit="return kolla()">
+                    <form id="form" name="form" method="POST" action="process.php"onsubmit="return kolla()">
                       <div id="Namn">
                         <input type="text" placeholder="Användarnamn/E-mail..." name="Namn"/>
                       </div>
@@ -50,7 +50,7 @@
                 </div>
               </footer>
 
-				<p> Not a member?  <a href="assets/php/Register.php"> Register now</a></p>
+		<p> Not a member?  <a href="assets/Pages/Register.php"> Register now</a></p>
                 <script>
                 function kolla(){
                   var namn = document.form.Namn.value;
