@@ -7,7 +7,7 @@
     </head>
     <body>
         <div>
-            <form name="RegisForm" action="assets/php/reg.php" method="post">
+            <form name="RegisForm" action="../php/reg.php" method="post">
 
                 <input type="text" name="regUname" id="regUname" required>
                 <br>
