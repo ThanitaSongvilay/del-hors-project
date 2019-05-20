@@ -128,6 +128,7 @@ nav{
 grid-gap: 5px 5px;
 }
 
+/*CSS FOR THE GRID*/
 .grid-container{
   display: grid;
   grid-template-columns: auto auto;
@@ -144,4 +145,5 @@ grid-gap: 5px 5px;
 #p{
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: black;
+  border: 5px solid grey;
 }
