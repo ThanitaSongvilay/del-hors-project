@@ -2,17 +2,6 @@
 <html>
     <head>
         <title>Recipes</title>
-        <div>
-            <nav>
-                <ul>
-                <li><a href="../Main.php">Home</a></li>
-                <li><a href="Recipes.php">Recipes</a></li>
-                <li><a href="Shop.php">Shop</a></li>
-                <li><a href="AboutUs.php">About us</a></li>
-                </ul>
-            </nav>
-        </div>
-        <hr>
     </head>
     <body>
         <div>
