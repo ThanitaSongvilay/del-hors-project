@@ -146,7 +146,7 @@ p{
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: black;
   border-image-outset: 0px;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 k{
