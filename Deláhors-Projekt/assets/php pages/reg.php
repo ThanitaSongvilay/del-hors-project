@@ -42,16 +42,16 @@ if(isset($_POST['regUpassword'])){
 	$SHpword=sha1($pword);
 	}
 
-	$sql_u="SELECT * FROM users WHERE Username='$uname'";
-	$sql_e="SELECT * FROM users WHERE Email='$email'";
+	$sql_u="SELECT * FROM Users WHERE Username='$uname'";
+	$sql_e="SELECT * FROM Users WHERE Email='$email'";
 	$res_u=mysqli_query($con,$sql_u);
 	$res_e=mysqli_query($con,$sql_e);
 	if(mysqli_num_rows($res_u)> 0){
-		echo" The name $uname is taken, try another name!";
+		echo" Följande namn $uname används redan!";
 		header("Refresh: 5; URL=reg.php");
 	}
 	else if(mysqli_num_rows($res_e) >0){
-		echo"This email is taken, are you sure you are not already a member?";
+		echo"Epost adressen används redan!";
 	}
 
 	else{
@@ -75,13 +75,12 @@ function AddToDb($pword,$email,$uname,$randomSalt){
 	$sql = "INSERT INTO users (Username,Email,Password,Salt) VALUES ('$uname','$email','$pword','$randomSalt')";
 
 	if($con->query($sql)=== TRUE){
-			header("Refresh: 5; URL=loggedIn.php");
+			echo "$sql"; /* ändra sen till sidan för inloggade*/
 
 		}
 		else{
 			 echo "ERROR $sql";
 			}
-	header("Refresh: 5; URL=loggedIn.php ");
 	$con->close();
 
 
