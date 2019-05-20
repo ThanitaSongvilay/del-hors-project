@@ -12,11 +12,15 @@
 
         <div class="grid-container">
             <!-- stick pictures with links in here -->
-           <div class="grid-item">whores</div>
+           <div class="grid-item" href="recipes/Vegan.php"><img link="../img/veganButton.png"></div>
            <div class="grid-item">ahaha</div>
            <div class="grid-item">hehe</div>
         </div>
         
+        <div>
+            <h1>Test</h1>
+        </div>
+
         <div>
             <!-- put in boxes that will link to the vego and vegan recipes -->
             <!--<bild><a href="recipes/Vegan.php"><img src="../img/pic1.png"></a></bild>
