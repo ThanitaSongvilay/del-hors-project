@@ -7,20 +7,21 @@
     </head>
     <body>
         <div>
-            <form action="reg.php" method="post">
-                <input type="text" name="regUname" id="regUname">
+            <form name="RegisForm" action="reg.php" method="post">
+
+                <input type="text" name="regUname" id="regUname" required>
                 <br>
                 <UserName>UserName</UserName>
                 <br>
 
                 <br>
-                <input type="text" name="regUemail" id="regUemail">
-                <br>
+                <input type="text" name="regUemail" id="regUemail" required>
+               <br>
                 <UserEmail>Email</UserEmail>
                 <br>
 
                 <br>
-                <input type="password" name="regUpassword" id="regUpassword">
+                <input type="password" name="regUpassword" id="regUpassword" required>
                 <br>
                 <UserPassword>Password</UserPassword>
                 <br>
@@ -35,5 +36,58 @@
             <h4>Have an account?</h4>
             <a href="Login.php">Log in here!</a>
         </div>
+
+        <script type= "text/JavaScript">
+        	var regBtn       = document.getElementById('regButton');
+        	regBtn.addEventListener("click", validateForm);
+          function validateForm()
+          {
+            var uname         =document.regForm.regUname.value;
+            var email  		    =document.regForm.regUemail.value;
+            var pword         =document.regForm.regUpassword.value;
+
+            if((uname =="" )|| (email=="") || (pword == "")){
+
+              alert("Var vänlig och fyll i ett användarnamn, en epost adress och ett lösenord");
+              return false;
+            }
+
+            else if((validateEmail(email)==true && validatePword(pword)==true)){
+                document.RegisForm.submit();
+                return true;
+
+            }
+
+            else {
+             return false;
+             header("Refresh: 2; URL=Register.php");
+           }
+
+          }
+
+          function validateEmail(email){
+        		if(/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email))
+        		{
+        			return true;
+        		}
+
+        		else {
+        		  alert("Ogiltig epost");
+        		 return false;
+        		}
+        	}
+
+          function validatePword(pword){
+            var psword =/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/;
+            if(psword.test(pword1)){
+              return true;
+            }
+            else{
+             alert("Lösenordet måste bestå av 6-20 bokstäver, en storbokstav och minst ett tal");
+             return false;
+            }
+          }
+          </script>
+
     </body>
 </html>
