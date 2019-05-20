@@ -2,8 +2,10 @@
 <html>
 <head>
   <meta charset= "utf-8">
+  <title> Hem | StudentMat </title> <!--det här syns i webbläsartabben-->
   <link rel="stylesheet" href="assets/css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+  <scrpit type="text/javascript" src="/assets/js/form.js"></script> <!-- koppla till js-->
 </head>
 <body>
   <nav>
