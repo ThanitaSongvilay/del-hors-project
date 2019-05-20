@@ -75,7 +75,6 @@ function AddToDb($pword,$email,$uname,$randomSalt){
 	$sql = "INSERT INTO users (Username,Email,Password,Salt) VALUES ('$uname','$email','$pword','$randomSalt')";
 
 	if($con->query($sql)=== TRUE){
-			echo nl2br( "Welcome '$uname' if you are truly woke you will understand the following: \n  .-- . .-.. -.-. --- -- . / - --- / - .... . / - .-. ..- - .... -.-.--");
 			header("Refresh: 5; URL=loggedIn.php");
 
 		}
