@@ -133,7 +133,6 @@ grid-gap: 5px 5px;
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 0px;
-  background-color:  #77a8a8;
 }
 
 .grid-item{
@@ -141,6 +140,7 @@ grid-gap: 5px 5px;
   border: 3px solid black;
   border-image-outset: 0px;
   padding: 0px 20px;
+  background-color:  #77a8a8;
   margin: auto;
 }
 
