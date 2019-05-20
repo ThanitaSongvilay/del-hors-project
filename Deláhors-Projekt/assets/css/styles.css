@@ -132,6 +132,7 @@ grid-gap: 5px 5px;
   display: grid;
   grid-template-columns: auto auto;
   padding: 0px;
+  background-color:  #77a8a8;
 }
 
 .grid-item{
