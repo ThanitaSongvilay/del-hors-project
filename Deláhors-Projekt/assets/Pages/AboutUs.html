@@ -2,14 +2,51 @@
 <html>
 
     <head>
-      <title>About us</title> <!--det här syns i webbläsartabben-->
-
+      <title>Om oss</title> <!--det här syns i webbläsartabben-->
+      <link rel="stylesheet" href="../css/styles.css">
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
         <div>
         <link href="../../navbar.html" rel="import">
+    </head>
+    <body>
+      <nav>
+        <p> StudentMat </p>
+        <div class="dropDown">
+          <ul>
+            <li><a href="../../index.html">Hem</a>
+              <ul>
+                <li><a href="AboutUs.html">Om oss</a>
+                  </ul>
+                </li>
+                <li><a href="Recipes.html">Recept</a>
+                  <ul>
+                    <li><a href="recipes/Vegan.php">Vegan</a>
+                      <li><a href="recipes/Vegetarian.php">Vego</a><li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Handla</a>
+                      <ul>
+                        <li><a href="shops/VegoShop.php">Köp</a></ul>
+                        </li>
+                      </ul>
+                      <div id= "logInContainer">
+                        <form id="form" name="form" method="GET" action="process.php"onsubmit="return kolla()">
+                          <div id="Namn">
+                            <input type="text" placeholder="Användarnamn/E-mail..." name="Namn"/>
+                          </div>
+                          <div id="Losen">
+                            <input type="password" placeholder="Lösenord..." name="Email"/>
+                          </div>
+                          <div id="Knapp">
+                            <button type="submit">Logga in</button>
+                            <button type="submit">Skapa Konto</button>
+                          </div>
 
-            <h2>About Us</h2>
-            <h5>Find out who we are! hehe</h5>
+                        </form>
+                      </div>
+                    </nav>
+            <h2>Om StudentMat</h2>
+            <p>Här kan du navigera runt bland olika recept och enkelt kunna klicka hem de varor som behövs för att laga maträtten</p>
         </div>
 
         <div>
