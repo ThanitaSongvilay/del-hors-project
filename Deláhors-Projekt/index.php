@@ -29,9 +29,9 @@
                     </li>
                   </ul>
                   <div id= "logInContainer">
-                    <form id="form" name="form" method="POST" action="process.php"onsubmit="return kolla()">
+                    <form id="form" name="form" method="POST" action="logIn.php"onsubmit="return kolla()">
                       <div id="Namn">
-                        <input type="text" placeholder="Användarnamn/E-mail..." name="Namn"/>
+                        <input type="text" placeholder="Användarnamn" name="Namn"/>
                       </div>
                       <div id="Losen">
                         <input type="password" placeholder="Lösenord..." name="Email"/>

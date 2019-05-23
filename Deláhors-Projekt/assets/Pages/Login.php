@@ -14,12 +14,6 @@
                 <br>
 
                 <br>
-                <input type="text" name="logUemail" id="logUemail">
-                <br>
-                <UserEmail>Email</UserEmail>
-                <br>
-
-                <br>
                 <input type="password" name="logUpassword" id="logUpassword">
                 <br>
                 <UserPassword>Password</UserPassword>
