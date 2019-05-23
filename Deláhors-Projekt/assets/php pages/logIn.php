@@ -4,7 +4,7 @@
 </head>
 <body>
 <?php
-	$host="dbtrain.im.uu.se";
+	  $host="dbtrain.im.uu.se";
 		$dbusername="dbtrain_1044";
 		$password="gkpdxr";
 		$dbname="dbtrain_1044";
@@ -56,7 +56,6 @@ else if(mysqli_num_rows($res_test)>0){
 }
 $con->close();
 ?>
-
 
 </body>
 </html>
